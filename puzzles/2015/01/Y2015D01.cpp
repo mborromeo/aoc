@@ -27,6 +27,6 @@ void Y2015D01::run() {
         }
     }
 
-    std::cout << "Floor: " << current_floor << "\n";
-    std::cout << "Position: " << position << "\n";
+    std::cout << "Floor: " << current_floor << std::endl;
+    std::cout << "Position: " << position << std::endl;
 }
