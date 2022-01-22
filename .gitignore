@@ -1,0 +1,8 @@
+aoc
+*.cbp
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+cmake-build-debug
+CMakeFiles
+Testing
