@@ -8,4 +8,5 @@ add_executable(
         main.cpp
         puzzles/2015/01/Y2015D01.cpp
         puzzles/2015/02/Y2015D02.cpp
+        puzzles/2015/03/Y2015D03.cpp
 )

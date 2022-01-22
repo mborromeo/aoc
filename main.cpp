@@ -3,6 +3,7 @@
 #include "puzzles/ipuzzle.h"
 #include "puzzles/2015/01/Y2015D01.h"
 #include "puzzles/2015/02/Y2015D02.h"
+#include "puzzles/2015/03/Y2015D03.h"
 
 int main(int argc, char* argv[]) {
     map_puzzle puzzles;
@@ -14,6 +15,7 @@ int main(int argc, char* argv[]) {
 
     puzzles["2015-01"] = &createInstance<Y2015D01>;
     puzzles["2015-02"] = &createInstance<Y2015D02>;
+    puzzles["2015-03"] = &createInstance<Y2015D03>;
 
     if (puzzles.find(argv[1]) != puzzles.end()) {
         puzzles[argv[1]]()->run();
